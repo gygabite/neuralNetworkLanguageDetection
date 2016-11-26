@@ -22,8 +22,8 @@ int lastPressedKey = -1;
 boolean typing = false;
 int[] countedLanguages = {2,8};
 boolean lastOneWasCorrect = false;
-String[] languages = {"Random","Key Mash","English","Spanish","French","German","Japanese",
-"Swahili","Mandarin","Esperanto","Dutch","Polish","Lojban"};
+String[] languages = {"Lojban","Basque","English","Spanish","French","German","Japanese",
+"Swahili","Mandarin","Esperanto","Dutch","Polish","Italian"};
 int[] langSizes = new int[LANGUAGE_COUNT];
 void setup(){
   for(int i = 0; i < LANGUAGE_COUNT; i++){
